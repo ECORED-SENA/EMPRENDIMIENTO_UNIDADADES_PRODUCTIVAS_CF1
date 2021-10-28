@@ -228,7 +228,7 @@
             | Destacar los puntos fuertes, los débiles y realizar la respectiva comparación.
           li 
             i.fas.fa-angle-right.naranja
-            | Conocer el número de las empresas que están en el mercado al que vamos acceder y conocer de igual forma las ventas de cada una (registros mercantiles, informes comerciales, etc.).
+            | Conocer el número de las empresas que están en el mercado al que vamos a acceder y conocer de igual forma las ventas de cada una (registros mercantiles, informes comerciales, etc.).
       .col-6.offset-6
         figure
           img(src="@/assets/template/tema-3-21.png", alt="Texto que describa la imagen")
@@ -268,7 +268,7 @@
         .row
           .col-7
             .h4 Nuevos formatos de contenido 
-            p.mt-3 Las imágenes y videos consiguen más interacción que una publicidad con texto y en el contexto actual es habitual verse o compartirse estos recursos por redes sociales. Algunos medios novedosos están los videos 360°, live potos, realidad virtual, etc.
+            p.mt-3 Las imágenes y videos consiguen más interacción que una publicidad con texto y en el contexto actual es habitual verse o compartirse estos recursos por redes sociales. Algunos medios novedosos están los videos 360°, <em>live photos</em>, realidad virtual, etc.
           .col-5
             figure
               img(src="@/assets/template/tema-3-28.svg", alt="Imagen ilustrativa")

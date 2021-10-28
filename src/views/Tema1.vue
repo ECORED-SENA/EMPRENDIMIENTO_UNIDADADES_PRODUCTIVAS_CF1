@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
+   
     .titulo-principal
       .titulo-principal__numero
         span 1
-      h1 Simple Present // Presente simple
+      h1 Conceptos y características de un plan de negocio
     figure.mt-5
       img(src="@/assets/template/tema-1-1.png", alt="Texto que describa la imagen")
     .row.mt-5
@@ -15,7 +15,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p La planificación es fundamental en una unidad productiva, se convierte en el análisis central para dirigir y proyectar las actividades de la organización y es por esta razón que en este componente formativo estudiaremos las características de un plan de negocio, su objetivo y componentes. Para esto se hace necesario conocer el concepto de plan de negocio:.
+                p La planificación es fundamental en una unidad productiva, se convierte en el análisis central para dirigir y proyectar las actividades de la organización y es por esta razón que en este componente formativo estudiaremos las características de un plan de negocio, su objetivo y componentes. Para esto se hace necesario conocer el concepto de plan de negocio.
 
             .col-lg-4.mb-4.mb-lg-0
               figure
@@ -29,7 +29,7 @@
       .col-8.align-self-center.bg-acento-botones.rounded-20.p-5.position-absolute(style="left: 33%")
         p Se considera una herramienta de proyección y evaluación de una empresa o unidad productiva, con el fin de identificar las oportunidades de negocio; este debe ser plasmado en un documento que describa los objetivos, las características y los componentes específicos de la unidad productiva. 
         p.mt-3 La iniciativa de la unidad productiva en aplicar una herramienta como esta, puede ser utilizada para proyectos nuevos dentro de las actividades o como iniciación de la unidad, esta planeación permitirá fijar metas o tareas que den paso una mejor oportunidad de negocio. Para su desarrollo será necesario evaluar todos los recursos de la unidad productiva. 
-        p Muchas veces surge la pregunta: ¿Para qué sirve un plan de negocio? La respuesta a esta pregunta se encuentra en la siguiente infografía:   
+        p.mt-3 Muchas veces surge la pregunta: ¿Para qué sirve un plan de negocio? La respuesta a esta pregunta se encuentra en la siguiente infografía:   
     .row.mt-5.text-center.pb-5
       .h4 ¿Para qué sirve un plan de negocio?
     .row.mt-5
@@ -38,26 +38,31 @@
           figure.z-index-2
             img(src="@/assets/template/test.png", alt="Texto que describa la imagen")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:5%; width: 16%").z-index-2
-            figure
+            figure(@mouseover="mostrarIndicador = false")
+              .indicador--click(v-if="mostrarIndicador")
               <img src="@/assets/template/1.png" alt="Texto que describa la imagen" class="cursor-pointer" @click="toggleShowInfo1()">
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:23.5%; width: 16%").z-index-2
-            figure
+            figure(@mouseover="mostrarIndicador = false")
+              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/template/2.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo2()")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:42.5%; width: 16%").z-index-2
-            figure
+            figure(@mouseover="mostrarIndicador = false")
+              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/template/3.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo3()")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:61%; width: 16%").z-index-2
-            figure
+            figure(@mouseover="mostrarIndicador = false")
+              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/template/4.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo4()")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:79.5%; width: 16%").z-index-2
-            figure
+            figure(@mouseover="mostrarIndicador = false")
+              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/template/5.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo5()")
           .col-20.pt-5.px-0.position-absolute(style="top: 60%; left:2.5%; width: 20%; height:75%").fondo-img-3.text-center.z-index-1.opacity-0(:class="{ 'opacity-1 ': (showInfo1==true)}")
             .h4.pt-5 Para:
             p.mt-2 Clasificar, focalizar, e investigar un proyecto
           .col-20.pt-1.px-0.position-absolute(style="top: -18%; left:21.5%; width: 20%; height:75%").fondo-img-2.text-center.z-index-1.opacity-0(:class="{ 'opacity-1 ': (showInfo2==true)}")
             .h4.pt-5 Para:
-            p.mt-2 Clasificar, focalizar, e investigar un proyecto
+            p.mt-2 Planificar e identificar estrategias.
           .col-20.pt-5.px-0.position-absolute(style="top: 60%; left:40.5%; width: 20%; height:75%").fondo-img-3.text-center.z-index-1.opacity-0(:class="{ 'opacity-1 ': (showInfo3==true)}")
             .h4.pt-5 Para:
             p.mt-2 Brindar adaptabilidad
@@ -81,28 +86,28 @@
         .titulo-sexto.color-acento-contenido
           h5.text-small Figura 1
           p.text-small.italic Aspectos para la realización de un plan de negocio
-    .row(style="margin-top: 15%")
-      .col-2.text-center.ml-3.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
+    .row.d-flex.justify-content-around(style="margin-top: 15%")
+      .col-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
         figure.position-absolute(style="top: -120%; left:0%")
           img(src="@/assets/template/tema-1-6.png", alt="Texto que describa la imagen")
         .h4 Eficaz
         p.mt-3.text-small Tener toda la información más relevante de la empresa. 
-      .col-2.text-center.mx-4.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
+      .col-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
         figure.position-absolute(style="top: -120%; left:0%")
           img(src="@/assets/template/tema-1-7.png", alt="Texto que describa la imagen")
         .h4 Estructurado
         p.mt-3.text-small Ser simple y claro. 
-      .col-2.text-center.mx-4.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
+      .col-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
         figure.position-absolute(style="top: -120%; left:0%")
           img(src="@/assets/template/tema-1-8.png", alt="Texto que describa la imagen")
         .h4 Comprensible
         p.mt-3.text-small Escrito con claridad, vocabulario preciso y conceptos técnicos. 
-      .col-2.text-center.mx-4.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
+      .col-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
         figure.position-absolute(style="top: -120%; left:0%")
           img(src="@/assets/template/tema-1-9.png", alt="Texto que describa la imagen")
         .h4 Breve y conciso
         p.mt-3.text-small No puede ser extenso (de 20 a 30 páginas).
-      .col-2.text-center.mx-4.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
+      .col-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
         figure.position-absolute(style="top: -120%; left:0%")
           img(src="@/assets/template/tema-1-10.png", alt="Texto que describa la imagen")
         .h4 Presentación
@@ -134,7 +139,7 @@
               figure
                 img(src="@/assets/template/tema-1-14.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             .col-9
-              p Se debe estudiar el mercado en el cual se va incursionar y es importante responder: ¿Quiénes son los compradores? y ¿Por qué lo comprarán? Es importante realizar un análisis FODA (Fortalezas, Oportunidades, Debilidades y Amenazas) de esta forma se podrá identificar los potenciales consumidores, las ventajas y los puntos débiles que puede presentar el producto o servicio en el mercado.
+              p Se debe estudiar el mercado en el cual se va a incursionar y es importante responder: ¿Quiénes son los compradores? y ¿Por qué lo comprarán? Es importante realizar un análisis FODA (Fortalezas, Oportunidades, Debilidades y Amenazas) de esta forma se podrá identificar los potenciales consumidores, las ventajas y los puntos débiles que puede presentar el producto o servicio en el mercado.
               p.mt-3 Para identificar el mercado se debe tener presente:
               ul.lista-ul.mt-3
                 li 
@@ -163,7 +168,7 @@
               figure
                 img(src="@/assets/template/tema-1-16.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             .col-9
-              p Estas deben ir relacionadas a las estimaciones de ventas y marketing, desde la parte contable y financiera se podrá detallar los flujos de capital, la valoración de la inversión, las ganancias y pérdidas de esta proyección.
+              p Estas deben ir relacionadas con las estimaciones de ventas y marketing, desde la parte contable y financiera se podrá detallar los flujos de capital, la valoración de la inversión, las ganancias y pérdidas de esta proyección.
           div(titulo="Identificación del equipo de trabajo").row
             .col-3
               figure
@@ -188,6 +193,7 @@
                 img(src="@/assets/template/tema-1-20.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             .col-9
               p El documento debe ser socializado, validado y estar sujeto a modificaciones de mejora. Su redacción debe ser sencilla y coherente.
+
     .titulo-segundo.mt-5
       #t_1_3.h2 1.3  	Objetivo del plan de negocio 
     .row.mt-5.position-relative
@@ -198,6 +204,7 @@
         p El plan de negocio tiene como objetivo principal el poder definir e identificar la oportunidad de negocio, seguido a esto permitirá un estudio de mercado para posicionar los productos o servicios de la unidad productiva y, por último, permitirá conocer la viabilidad económica del proyecto. Es por esta razón que el plan de negocios es importante para cualquier socio de una empresa y tener clara la idea de negocio, su proyección, el retorno de sus ingresos para no perder la inversión. 
     .titulo-segundo.mt-5
       #t_1_4.h2 1.4  	Componentes de un plan de negocios 
+    p Según Maestre (2019), el plan de negocios está integrado por ocho componentes fundamentales que permitirán identificar la oportunidad de negocio desde un proyecto empresarial; los componentes son los siguientes:
     figure.mt-5
       img(src="@/assets/template/tema-1-22.png", alt="Texto que describa la imagen")
     .row.mt-5

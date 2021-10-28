@@ -102,7 +102,7 @@
       .row.mt-5.px-5
         .h3.font-50.text-center 5
         .h4 Elaborar un análisis estratégico: 
-        p.mt-1 El diagnóstico nos permitirá conocer el entorno real que lleva la empresa y servirá como base para establecer o reformular los objetivos de la unidad productiva, de igual manera se podrá establecer la capacidad y disponibilidad de recursos con los que puede contar la organización.  
+        p.mt-1 Después de obtener la información o datos obtenidos del análisis interno y externo de la unidad productiva, se empieza a determinar la posición estratégica en la que se encuentra y a la que se quiere llegar, partiendo de su capacidad y disponibilidad de recursos. 
         figure.mt-5
           img(src="@/assets/template/tema-4-16.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
     ModalA(:abrir-modal.sync="modal6").modal6
@@ -168,33 +168,33 @@
               ul.lista-ul.mt-3.mt-3
                 li 
                   i.fas.fa-angle-right.naranja
-                  | La amenaza de nuevos competidores
+                  | La amenaza de nuevos competidores.
                 li 
                   i.fas.fa-angle-right.naranja
-                  | La amenaza de nuevos productos o servicios
+                  | La amenaza de nuevos productos o servicios.
                 li 
                   i.fas.fa-angle-right.naranja
-                  | El poder de negación de los clientes
+                  | El poder de negación de los clientes.
                 li 
                   i.fas.fa-angle-right.naranja
-                  | El poder de negociación de los proveedores
+                  | El poder de negociación de los proveedores.
                 li 
                   i.fas.fa-angle-right.naranja
-                  | Rivalidad y competencia en el mercado
+                  | Rivalidad y competencia en el mercado.
               p.mt-3 Se podrá determinar los eventos futuros de la empresa según la cantidad de presión sobre cada una de estas fuerzas. 
           .row(numero="7" titulo="Análisis de capacidades VRIO")
             .col-3.pt-4
               figure
                 img(src="@/assets/template/tema-4-26.svg", alt="Imagen ilustrativa")
             .col-9.pt-4
-              p Esta se relaciona con la visión y su planificación estratégica resulta una ventaja competitiva en el mercado. Su estructura está fundamentada en cuatro componentes: valor, rareza, Imitabilidad y organización. Al momento de aplicar esta estrategia es importante conocer las capacidades que tiene la organización. Por medio de sus componentes se identificará las desventajas, paridad y ventajas tanto temporales como las que faltan por explotar. 
+              p Esta se relaciona con la visión y su planificación estratégica resulta una ventaja competitiva en el mercado. Su estructura está fundamentada en cuatro componentes: valor, rareza, imitabilidad y organización. Al momento de aplicar esta estrategia es importante conocer las capacidades que tiene la organización. Por medio de sus componentes se identificará las desventajas, paridad y ventajas tanto temporales como las que faltan por explotar. 
           .row(numero="8" titulo="Estrategia Océano Azul ")
             .col-3.pt-4
               figure
                 img(src="@/assets/template/tema-4-27.svg", alt="Imagen ilustrativa")
             .col-9.pt-4
               p Esta estrategia permite ubicar a la unidad productiva en un mercado no disputado en lugar de un mercado desarrollado o saturado por la competencia. Esto permitirá que la organización aumente de valor, compradores y empleados cuando obtenga un “océano azul”. Su estrategia se fundamenta en buscar o crear nuevos espacios de mercado, volver a la competencia irrelevante, crear y capturar nueva demanda y procurar un mejor costo y mayor diferenciación. 
-          .row(numero="9" titulo="Balanced Scorecard")
+          .row(numero="9" titulo="<i>Balanced Scorecard</i>")
             .col-3.pt-4
               figure
                 img(src="@/assets/template/tema-4-28.svg", alt="Imagen ilustrativa")
@@ -203,7 +203,7 @@
               ul.lista-ul.mt-3.mt-3
                 li 
                   i.fas.fa-angle-right.naranja
-                  p #[strong Finanzas:] Rendimiento sobre la inversión y valor añadido
+                  p #[strong Finanzas:] Rendimiento sobre la inversión y valor añadido.
                 li 
                   i.fas.fa-angle-right.naranja
                   p #[strong Clientes:] satisfacción, retención y cuota de mercado. 
@@ -229,7 +229,7 @@
                   p #[strong Afrontar] las amenazas externas que presenta el mercado para la unidad productiva.
                 li 
                   i.fas.fa-angle-right.naranja
-                  p #[strong Mantener]  las fortalezas intrínsecas de la unidad productiva
+                  p #[strong Mantener]  las fortalezas intrínsecas de la unidad productiva.
                 li 
                   i.fas.fa-angle-right.naranja
                   p #[strong Explorar] las oportunidades que brinda el mercado.

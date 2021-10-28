@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 6
-      h1 Ciclo del producto
+      h1 Mercadeo y servicios
     figure.mt-5
       img(src="@/assets/template/tema-6-1.png", alt="Texto que describa la imagen")
     .row.mt-5
@@ -135,7 +135,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p Una vez realizada la segmentación, la unidad productiva deberá elegir la franja de mercado con mayor volumen de ventas, mayores expectativas de crecimiento, menor competencia y mayores beneficios para dirigirse al mercado, el cual será la meta. El mercado meta está compuesto por un grupo de compradores potenciales que la unidad productiva buscará convertir en clientes. 
+                p En la industria manufacturera, el método Kaizen considera muchos pasos; sin embargo, las herramientas para mejorar la satisfacción del cliente no son muy comunes. Para el mejoramiento de los procesos, algunos métodos utilizados son las (7) herramientas de control de calidad:
             .col-lg-4.mb-4.mb-lg-0
               figure
                 img(src="@/assets/template/tema-6-12.svg", alt="Texto que describa la imagen").floating.w-75.margin-0-auto
@@ -160,7 +160,7 @@
                 img(src="@/assets/template/tema-6-15.svg", alt="Imagen ilustrativa")
             .col-10.pt-4
               p Se debe encuestar al cliente para conocer su nivel de satisfacción, después de esto se buscan los factores en que se debe mejorar.
-          .row(numero="4" titulo="Benchmarking:")
+          .row(numero="4" titulo="<i>Benchmarking</i>:")
             .col-2.pt-4
               figure
                 img(src="@/assets/template/tema-6-16.svg", alt="Imagen ilustrativa")

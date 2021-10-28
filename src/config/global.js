@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Planificación de unidades productivas',
     descripcionCurso:
-      'Las actividades diseñadas en este componente de formación, permiten identificar y conocer la estructura de un plan de negocios de la unidad productiva, conociendo de esta manera las necesidades del mercado, del cliente y la identidad corporativa según las características del producto o servicio.',
+      'Este componente formativo permite identificar y conocer la estructura de un plan de negocios de la unidad productiva, conociendo las necesidades del mercado, del cliente y la identidad corporativa según las características del producto o servicio.<br> <br> Por otra parte, diseñar y articular estrategias de mercado y planificación, estudiando las variables de un plan de mercadeo, el ciclo de vida de un producto o servicio y su normatividad.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -56,13 +56,13 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Lodging',
+        titulo: 'Identidad corportiva',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Identidad corporativa',
+            titulo: 'Imagen corporativa',
             hash: 't_2_1',
           },
           {
@@ -212,12 +212,6 @@ export default {
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -373,23 +367,34 @@ export default {
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor Pedagógico',
-        centro:
-          'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        nombre: 'Maria Camila García Santamaría',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
       },
     ],
     contenidoInstruccional: [
       {
-        nombre: 'Anderson Ferney Archila Calixto',
-        cargo: 'Experto Temático',
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Regional Norte de Santander – Centro de la Industria de la Empresa y los Servicios - CIES',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Anderson Ferney Archila Calixto',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de la Industria de la Empresa y los Servicios - CIES - Regional Norte de Santander',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico',
-        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+        cargo: 'Revisor metodológico y pedagógico',
+        centro: 'Centro de diseño y metrología - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -397,25 +402,67 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: 'Jhon Jairo Rodríguez Pérez',
-        cargo: 'Diseñador y evaluador instruccional',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Luis Fernando Sarmiento Betancourth',
+        cargo: 'Diseño web',
         centro:
-          'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica.',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: 'Paola Andrea Quintero Aguilar',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+        nombre: 'Ernesto Navarro Jaimes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo Lopez ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Regional Tolima - Centro de Comercio y Servicios',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Magdi Khalifah Gamboa',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

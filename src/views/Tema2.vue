@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 2
-      h1 Lodging // Alojamiento
+      h1 Identidad corportiva
     .row.mt-5.position-relative.pb-5
       .col-8.align-self-center.bg-acento-botones.rounded-20.px-5.position-absolute(style="left: 0%; padding-top: 9%; padding-bottom:9%")
         p En la actualidad existen muchas compañías que con solo mirar su imagen o logotipo se pueden identificar y muchas de ellas son reconocidas en los mercados nacionales e internacionales por llamativa o singular que puede llegar a hacer su imagen o logotipo corporativo. En este apartado estudiaremos lo relacionado a la imagen corporativa que debe implementar una unidad productiva. 
@@ -98,7 +98,7 @@
         p Es por esta razón que la imagen corporativa es tan importante, pues su marca debe conseguir que el cliente, simplemente con ver su logo o detectar el color logre identificar su empresa. Relacionando rápidamente la empresa y los productos con determinados valores, de calidad, deseo de compra y orgullo por portarlos.
     separador.mt-4
     .titulo-segundo.mt-5
-      #t_2_2.h2 2.2  	Características del plan de negocios
+      #t_2_2.h2 2.2  Características de la imagen corporativa
     .row.mt-5
       .col-12.rounded-20.bg-amarillo-claro.p-5
         .row.zoom-in
@@ -139,8 +139,8 @@
           img(src="@/assets/template/tema-2-10.svg", alt="Texto que describa la imagen").floating    
       .col-10.offset-1.mt-5
         .titulo-sexto.color-acento-contenido
-          h5.text-small Figura 2
-          p.text-small.italic Imagen corporativa
+          h5.text-small Figura 3
+          p.text-small.italic Elementos de la imagen corporativa
     .row.justify-content-center(data-aos="fade-down").mt-4
       .col-lg-3
         .row.px-2.pt-2.h-100
@@ -219,6 +219,8 @@
                 p.mt-3.small-text Se construyen principalmente con la calidad de los productos y servicios. Es importante la buena atención, responsabilidad y puntualidad.
     figcaption.mt-3 Referencia Nota. SENA (2021)
     
+
+    
     .titulo-segundo.mt-5
       #t_2_4.h2 2.4  	Mercado    
     .row.mt-5.position-relative
@@ -239,31 +241,31 @@
                     img(src="@/assets/template/tema-2-20.svg", alt="Texto que describa la imagen").w-75.margin-0-auto.floating
                 .col-9.align-self-center             
                   p.text-small Por esta razón es importante tener una imagen corporativa fuerte que permita hacer una diferenciación de la marca con la competencia. Esto llevaría a un posicionamiento más preciso y se convierte en una ventaja competitiva que a largo plazo reduciría de manera significativa los gastos en publicidad. 
-    p.mt-5 Al momento de estudiar el mercado, es importante conocer los factores que interactúan en este y hacen que la dinámica comercial se desarrolle entorno a la comercialización de productos y servicios. Aquí encontramos la demanda y oferta que viene determinada por: 
-    .row.mt-5
-      .col-6.position-relative.px-0
-        figure.px-2
-          img(src="@/assets/template/tema-2-21.png", alt="Texto que describa la imagen")
-        .row.image-cover.mx-0
-          figure.px-2
-            img(src="@/assets/template/tema-2-21-1.svg", alt="Texto que describa la imagen")
-          .col-12(style="margin-top: -25%")
-            .h4.text-center Demanda
-            p.text-center.mt-3 La cantidad de producto que los compradores están dispuestos a adquirir a un determinado precio.
-
-      .col-6.position-relative.px-0
-        figure.px-2
-          img(src="@/assets/template/tema-2-99.png", alt="Texto que describa la imagen")
-        .row.image-cover.mx-0
-          figure.px-2
-            img(src="@/assets/template/tema-2-21-1.svg", alt="Texto que describa la imagen")
-          .col-12(style="margin-top: -25%")
-            .h4.text-center Oferta
-            p.text-center.mt-3.px-2 La cantidad de producto que los vendedores están dispuestos a ofrecer a un determinado precio.
+    p.mt-5 Al momento de estudiar el mercado, es importante conocer los factores que interactúan en este y hacen que la dinámica comercial se desarrolle en torno a la comercialización de productos y servicios. Aquí encontramos la demanda y oferta que viene determinada por: 
+    
+    .row.justify-content-center(data-aos="fade-down").mt-4
+          .col-lg-6
+            .row.px-2.pt-2.h-100
+              .col-12.m-0.nav-holder3.align-items-center.rounded-15.box-shadow.px-0
+                figure
+                  img(src="@/assets/template/tema-2-21.png", alt="Texto que describa la imagen")
+                .text.p-lg-5.p-4
+                  .row.px-1.pt-1
+                    .h4.small-text.text-center Demanda
+                    p.mt-5 La cantidad de producto que los compradores están dispuestos a adquirir a un determinado precio.
+          .col-lg-6
+            .row.px-2.pt-2.h-100
+              .col-12.m-0.nav-holder3.align-items-center.rounded-15.box-shadow.px-0
+                figure
+                  img(src="@/assets/template/tema-2-99.png", alt="Texto que describa la imagen")
+                .text.p-lg-5.p-4
+                  .row.px-1.pt-1
+                    .h4.small-text.text-center Oferta
+                    p.mt-5 La cantidad de producto que los vendedores están dispuestos a ofrecer a un determinado precio.
     separador.mt-3 
     .titulo-segundo.mt-5
       #t_2_5.h2 2.5 	Objetivo    
-    p.mt-5 Como se ha venido observando en el componente formativo, una imagen corporativa es de suma importancia para la unidad productiva. Esta imagen tiene ciertos elementos que se deben tener en cuenta para su creación y debe incorporar características propias y esenciales de la empresa. en razón de lo mencionado se puede describir el objetivo de la imagen corporativa como: 
+    p.mt-5 Como se ha venido observando en el componente formativo, una imagen corporativa es de suma importancia para la unidad productiva. Esta imagen tiene ciertos elementos que se deben tener en cuenta para su creación y debe incorporar características propias y esenciales de la empresa. En razón de lo mencionado se puede describir el objetivo de la imagen corporativa como: 
     .row.mt-5
       .col-8.offset-2
         .row
