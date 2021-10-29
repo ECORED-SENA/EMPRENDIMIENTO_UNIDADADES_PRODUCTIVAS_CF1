@@ -7,25 +7,25 @@
         span 4
       h1 Planeación estratégica
     .row.mt-5
-      .col-8
+      .col-12.col-lg-8
         p Todas las organizaciones en el contexto actual, donde existe un mercado muy competitivo y donde las formas de satisfacer las necesidades de las personas cambian o evolucionan permanentemente, buscan la forma de ser exitosas. Es aquí donde se deben trazar camino con unas metas claras y precisas, donde la planeación estratégica permita cumplir con esas metas. 
         .row.mt-4  
           .col-12
             .cajon.color-acento-contenido.p-4.mb-4 
               .row 
-                .col-3.align-self-center
+                .col-3.align-self-center.d-none.d-lg-block
                   figure
                     img(src="@/assets/template/tema-4-2.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
-                .col-9.align-self-center
+                .col-12.col-lg-9.align-self-center
                   p Cuando se habla de planeación estratégica, se encuentran varios conceptos muy relacionados entre sí. Podría decirse que la planeación estratégica es una herramienta de gestión que establece el quehacer y el camino que se debe recorrer para alcanzar las metas u objetivos de las organizaciones teniendo en cuenta el análisis de su entorno. A partir de su direccionamiento se puede establecer la misión, visión, los objetivos y planes de acción de las organizaciones.
         p.mt-4 Al momento de implementar una planificación estratégica se van a integrar varios departamentos o áreas comerciales de la organización, entre estas tenemos el área de contabilidad, investigación y desarrollo, marketing, producción, sistema de gestión e información. Estas son las áreas que intervienen directamente para lograr los objetivos de la organización.  
-      .col-4.align-self-center
+      .col-4.col-lg-4.offset-4.offset-lg-0.mt-4.mt-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-4-1.png", alt="Texto que describa la imagen")
     .titulo-segundo.mt-5
       #t_4_1.h2 4.1  	Estructura de un plan estratégico 
     .row.mt-5.fondo-img-1.pt-5
-      .col-4.mt-5.text-white.offset-1.mb-5.pb-5
+      .col-10.col-lg-4.mt-5.text-white.offset-1.mb-5.pb-5
         p Existe una serie elementos que no pueden faltar en la elaboración de un plan estratégico y que son de gran importancia para su desarrollo, estos son:
         ul.lista-ul.mt-3.mb-5.mt-5
           li 
@@ -125,7 +125,7 @@
       img(src="@/assets/template/tema-4-19.png", alt="Texto que describa la imagen")
     p.mt-5 A continuación, se mencionan algunos de los modelos de planeación estratégica más utilizados, cada uno tiene características diferentes y se debe escoger el que mejor se adapte a las necesidades de la unidad productiva:
     .row.mt-5
-      .col-6
+      .col-12.col-lg-6
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Cuadro de mando integral ")
             .col-3.pt-4
@@ -157,7 +157,7 @@
                 img(src="@/assets/template/tema-4-24.svg", alt="Imagen ilustrativa")
             .col-9.pt-4
               p También es conocido como el “análisis de brechas de necesidad, evaluación de necesidades o brechas de planificación estratégicas”. Aquí se compara el estado de la organización en dos momentos que responden: en donde está ahora la unidad productiva, dónde quiere estar y cómo cerrar esa brecha que existe en los dos momentos.  
-      .col-6
+      .col-12.col-lg-6.mt-4.mt-lg-0
         LineaTiempoD.color-primario
           .row(numero="6" titulo="Análisis 5 fuerzas de Porter ")
             .col-3.pt-4

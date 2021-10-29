@@ -17,25 +17,41 @@
               .bloque-texto-a__texto.p-4
                 p La planificación es fundamental en una unidad productiva, se convierte en el análisis central para dirigir y proyectar las actividades de la organización y es por esta razón que en este componente formativo estudiaremos las características de un plan de negocio, su objetivo y componentes. Para esto se hace necesario conocer el concepto de plan de negocio.
 
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block
               figure
                 img(src="@/assets/template/tema-1-2.svg", alt="Texto que describa la imagen").floating.w-75.margin-0-auto
     .titulo-segundo.mt-5
       #t_1_1.h2 1.1  Plan de negocio
     .row.mt-5.position-relative
-      .col-6
+      .col-6.d-none.d-lg-block
         figure
           img(src="@/assets/template/tema-1-3.png", alt="Texto que describa la imagen")
-      .col-8.align-self-center.bg-acento-botones.rounded-20.p-5.position-absolute(style="left: 33%")
+      .col-8.d-none.d-lg-block.align-self-center.bg-acento-botones.rounded-20.p-5.position-absolute(style="left: 33%")
+        p Se considera una herramienta de proyección y evaluación de una empresa o unidad productiva, con el fin de identificar las oportunidades de negocio; este debe ser plasmado en un documento que describa los objetivos, las características y los componentes específicos de la unidad productiva. 
+        p.mt-3 La iniciativa de la unidad productiva en aplicar una herramienta como esta, puede ser utilizada para proyectos nuevos dentro de las actividades o como iniciación de la unidad, esta planeación permitirá fijar metas o tareas que den paso una mejor oportunidad de negocio. Para su desarrollo será necesario evaluar todos los recursos de la unidad productiva. 
+        p.mt-3 Muchas veces surge la pregunta: ¿Para qué sirve un plan de negocio? La respuesta a esta pregunta se encuentra en la siguiente infografía:   
+      .col-10.offset-1.p-5.d-block.d-lg-none.bg-acento-botones.rounded-20.mt-5
         p Se considera una herramienta de proyección y evaluación de una empresa o unidad productiva, con el fin de identificar las oportunidades de negocio; este debe ser plasmado en un documento que describa los objetivos, las características y los componentes específicos de la unidad productiva. 
         p.mt-3 La iniciativa de la unidad productiva en aplicar una herramienta como esta, puede ser utilizada para proyectos nuevos dentro de las actividades o como iniciación de la unidad, esta planeación permitirá fijar metas o tareas que den paso una mejor oportunidad de negocio. Para su desarrollo será necesario evaluar todos los recursos de la unidad productiva. 
         p.mt-3 Muchas veces surge la pregunta: ¿Para qué sirve un plan de negocio? La respuesta a esta pregunta se encuentra en la siguiente infografía:   
     .row.mt-5.text-center.pb-5
       .h4 ¿Para qué sirve un plan de negocio?
     .row.mt-5
-      .col-10.offset-1.py-5
+      .col-10.offset-1.d-block.d-lg-none
+        LineaTiempoD.color-primario
+          p.text-small(numero="1" titulo="Para: ") Clarificar, focalizar e investigar un proyecto. 
+          
+          p.text-small(numero="2" titulo="Para: ") Clarificar, focalizar e investigar un proyecto.
+          
+          p.text-small(numero="3" titulo="Para: ") Brindar adaptabilidad
+        
+          p.text-small(numero="4" titulo="Para: ") Establecer créditos e inversiones
+          
+          p.text-small(numero="5" titulo="Para: ") Identificar oportunidades.
+
+      .col-10.offset-1.py-5.d-none.d-lg-block
         .row.mx-0.h-100.position-relative
-          figure.z-index-2
+          figure.z-index-2.d-none.d-lg-block
             img(src="@/assets/template/test.png", alt="Texto que describa la imagen")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:5%; width: 16%").z-index-2
             figure(@mouseover="mostrarIndicador = false")
@@ -76,10 +92,10 @@
     .titulo-segundo.mt-5
       #t_1_2.h2 1.2  	Características del plan de negocios
     .row.mt-5
-      .col-8
+      .col-12.col-lg-8
         p Toda unidad productiva en sus primeras etapas de consolidación y después de madurar en el mercado deben tener presente que el éxito y continuidad de su organización dependerá del control y supervisión que realice periódicamente, se debe implementar un plan de negocio para poder mantener una estabilidad y generar rendimientos positivos a lo largo del tiempo. 
         p.mt-3 Según lo anterior, se hace necesario conocer los aspectos de un plan de negocio y es fundamental ejecutar uno periódicamente en la unidad productiva. Para esto se deben conocer sus particularidades al momento de elaborar el plan. Entre estos aspectos se encuentran:
-      .col-4
+      .col-6.col-lg-4.offset-3.offset-lg-0
         figure
           img(src="@/assets/template/tema-1-5.svg", alt="Texto que describa la imagen").floating
       .col-10.offset-1.mt-5
@@ -87,28 +103,28 @@
           h5.text-small Figura 1
           p.text-small.italic Aspectos para la realización de un plan de negocio
     .row.d-flex.justify-content-around(style="margin-top: 15%")
-      .col-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
-        figure.position-absolute(style="top: -120%; left:0%")
+      .col-5.col-xl-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
+        figure.position-absolute(style="top: -120%; left:0%").d-none.d-xl-block
           img(src="@/assets/template/tema-1-6.png", alt="Texto que describa la imagen")
         .h4 Eficaz
         p.mt-3.text-small Tener toda la información más relevante de la empresa. 
-      .col-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
-        figure.position-absolute(style="top: -120%; left:0%")
+      .col-5.ml-4.ml-xl-0.col-xl-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
+        figure.position-absolute(style="top: -120%; left:0%").d-none.d-xl-block
           img(src="@/assets/template/tema-1-7.png", alt="Texto que describa la imagen")
         .h4 Estructurado
         p.mt-3.text-small Ser simple y claro. 
-      .col-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
-        figure.position-absolute(style="top: -120%; left:0%")
+      .col-5.col-xl-2.mt-4.mt-xl-0.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
+        figure.position-absolute(style="top: -120%; left:0%").d-none.d-xl-block
           img(src="@/assets/template/tema-1-8.png", alt="Texto que describa la imagen")
         .h4 Comprensible
         p.mt-3.text-small Escrito con claridad, vocabulario preciso y conceptos técnicos. 
-      .col-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
-        figure.position-absolute(style="top: -120%; left:0%")
+      .col-5.ml-4.ml-xl-0.mt-4.mt-xl-0.col-xl-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
+        figure.position-absolute(style="top: -120%; left:0%").d-none.d-xl-block
           img(src="@/assets/template/tema-1-9.png", alt="Texto que describa la imagen")
         .h4 Breve y conciso
         p.mt-3.text-small No puede ser extenso (de 20 a 30 páginas).
-      .col-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
-        figure.position-absolute(style="top: -120%; left:0%")
+      .col-5.ml-4.ml-xl-0.mt-4.mt-xl-0.col-xl-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
+        figure.position-absolute(style="top: -120%; left:0%").d-none.d-xl-block
           img(src="@/assets/template/tema-1-10.png", alt="Texto que describa la imagen")
         .h4 Presentación
         p.mt-3.text-small Facilidad para leer, interpretar y visualizar (imágenes, gráficos, tablas, etc.).
@@ -197,10 +213,12 @@
     .titulo-segundo.mt-5
       #t_1_3.h2 1.3  	Objetivo del plan de negocio 
     .row.mt-5.position-relative
-      .col-6
+      .col-10.offset-1.d-block.d-lg-none.bg-acento-botones.rounded-20.px-5.py-4.py-lg-0
+        p El plan de negocio tiene como objetivo principal el poder definir e identificar la oportunidad de negocio, seguido a esto permitirá un estudio de mercado para posicionar los productos o servicios de la unidad productiva y, por último, permitirá conocer la viabilidad económica del proyecto. Es por esta razón que el plan de negocios es importante para cualquier socio de una empresa y tener clara la idea de negocio, su proyección, el retorno de sus ingresos para no perder la inversión. 
+      .col-6.d-none.d-lg-block
         figure
           img(src="@/assets/template/tema-1-21.png", alt="Texto que describa la imagen")
-      .col-8.align-self-center.bg-acento-botones.rounded-20.px-5.position-absolute(style="left: 33%; padding-top: 9%; padding-bottom:9%")
+      .col-8.align-self-center.d-none.d-lg-blockbg-acento-botones.rounded-20.px-5.position-absolute(style="left: 33%; padding-top: 9%; padding-bottom:9%")
         p El plan de negocio tiene como objetivo principal el poder definir e identificar la oportunidad de negocio, seguido a esto permitirá un estudio de mercado para posicionar los productos o servicios de la unidad productiva y, por último, permitirá conocer la viabilidad económica del proyecto. Es por esta razón que el plan de negocios es importante para cualquier socio de una empresa y tener clara la idea de negocio, su proyección, el retorno de sus ingresos para no perder la inversión. 
     .titulo-segundo.mt-5
       #t_1_4.h2 1.4  	Componentes de un plan de negocios 
@@ -214,7 +232,7 @@
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p El plan de negocio tiene como objetivo principal el poder definir e identificar la oportunidad de negocio, seguido a esto permitirá un estudio de mercado para posicionar los productos o servicios de la unidad productiva y, por último, permitirá conocer la viabilidad económica del proyecto. Es por esta razón que el plan de negocios es importante para cualquier socio de una empresa y tener clara la idea de negocio, su proyección, el retorno de sus ingresos para no perder la inversión. 
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block
               figure
                 img(src="@/assets/template/tema-1-23.svg", alt="Texto que describa la imagen").floating.w-75.margin-0-auto
     .row.mt-5
@@ -224,67 +242,67 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Clientes con pedido")
             h4 Clientes con pedido
             .row
-              .col-2
+              .col-6.offset-3.offset-lg-0.col-lg-2
                 figure
                   img(src="@/assets/template/tema-1-24.svg", alt="Texto que describa la imagen")
-              .col-9.offset-1
+              .col-9.offset-1.mt-3.mt-lg-0
                 p Se debe identificar y fidelizar a los clientes, y seguir en la búsqueda de nuevos clientes.
           
           .tarjeta.color-acento-botones--borde.p-4(titulo="Información sobre el entorno")
             h4 Información sobre el entorno
             .row
-              .col-2
+              .col-6.offset-3.offset-lg-0.col-lg-2
                 figure
                   img(src="@/assets/template/tema-1-25.svg", alt="Texto que describa la imagen")
-              .col-9.offset-1
+              .col-9.offset-1.mt-3.mt-lg-0
                 p La unidad productiva debe estar atenta e informada de la situación del entorno con el fin de tomar decisiones en datos oportunos y correctos.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Tecnología")
             h4 Tecnología
             .row
-              .col-2
+              .col-6.offset-3.offset-lg-0.col-lg-2
                 figure
                   img(src="@/assets/template/tema-1-26.svg", alt="Texto que describa la imagen")
-              .col-9.offset-1
+              .col-9.offset-1.mt-3.mt-lg-0
                 p Toda unidad productiva requiere de tecnología y esta debe estar en condiciones de competitividad que exige el mercado.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Oportunidad")
             h4 Oportunidad
             .row
-              .col-2
+              .col-6.offset-3.offset-lg-0.col-lg-2
                 figure
                   img(src="@/assets/template/tema-1-27.svg", alt="Texto que describa la imagen")
-              .col-9.offset-1
+              .col-9.offset-1.mt-3.mt-lg-0
                 p La unidad productiva debe aprovechar al máximo su ventaja competitiva.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Redes empresariales")
             h4 Redes empresariales
             .row
-              .col-2
+              .col-6.offset-3.offset-lg-0.col-lg-2
                 figure
                   img(src="@/assets/template/tema-1-28.svg", alt="Texto que describa la imagen")
-              .col-9.offset-1
+              .col-9.offset-1.mt-3.mt-lg-0
                 p Las redes facilitan los procesos operativos y pueden ser el triunfo de toda empresa puesto que permiten guiar al éxito personal, empresarial y profesional.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Recursos humano")
             h4 Recursos humano
             .row
-              .col-2
+              .col-6.offset-3.offset-lg-0.col-lg-2
                 figure
                   img(src="@/assets/template/tema-1-29.svg", alt="Texto que describa la imagen")
-              .col-9.offset-1
+              .col-9.offset-1.mt-3.mt-lg-0
                 p Toda función operativa necesita de personas con capacidades, destrezas y fortalezas en el área de trabajo, este recurso humano bien manejado se traduce en el tiempo como valorización de la unidad productiva.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Recursos naturales")
             h4 Recursos naturales
             .row
-              .col-2
+              .col-6.offset-3.offset-lg-0.col-lg-2
                 figure
                   img(src="@/assets/template/tema-1-30.svg", alt="Texto que describa la imagen")
-              .col-9.offset-1
+              .col-9.offset-1.mt-3.mt-lg-0
                 p Son fundamentales para la producción y distribución de bienes y servicios, estos se deben aprovechar en su mayor porcentaje.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Recursos financieros")
             h4 Recursos financieros
             .row
-              .col-2
+              .col-6.offset-3.offset-lg-0.col-lg-2
                 figure
                   img(src="@/assets/template/tema-1-31.svg", alt="Texto que describa la imagen")
-              .col-9.offset-1
+              .col-9.offset-1.mt-3.mt-lg-0
                 p Son de gran importancia para crear y hacer crecer una unidad productiva, se debe tener la capacidad de identificar fuentes de recursos financieros.
 
 

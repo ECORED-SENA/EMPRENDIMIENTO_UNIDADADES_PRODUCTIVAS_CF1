@@ -9,29 +9,29 @@
     figure.mt-5
       img(src="@/assets/template/tema-6-1.png", alt="Texto que describa la imagen")
     .row.mt-5
-      .col-10
+      .col-12.col-lg-10
         p La planeación estratégica de mercado se relaciona con la asignación de recursos que son escasos y de los que se desea obtener un rendimiento o utilidad. Esta toma de decisión busca alcanzar metas y definir caminos para lograr el objetivo deseado.
         p.mt-3 En esta planeación se debe tener presente la misión y la definición del negocio, para establecer el campo de acción en el marco de productos y servicios (tecnología), clientes y necesidades satisfechas.
-      .col-2.align-self-center
+      .col-4.offset-4.offset-lg-0.col-lg-2.align-self-center
         figure
           img(src="@/assets/template/tema-6-2.svg", alt="Texto que describa la imagen").w-75.margin-0-auto.floating
     separador.mt-3
     .titulo-segundo.mt-5
       #t_6_1.h2 6.1  	Servicios
     .row.mt-5
-      .col-8
+      .col-12.col-lg-8
         p Los servicios representan, cada vez más, una parte integral del producto. Por otro lado, sin un producto tangible para mostrar a los clientes, los vendedores de servicios deben ser hábiles en las estrategias de marketing para crear valor para sus consumidores.
         .row.mt-4  
           .col-12
             .cajon.color-acento-contenido.p-4.mb-4 
               .row 
-                .col-3.align-self-center
+                .col-3.align-self-center.d-none.d-lg-block
                   figure
                     img(src="@/assets/template/tema-6-3.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
-                .col-9.align-self-center
+                .col-12.col-lg-9.align-self-center
                   p.text-small Un servicio se considera una acción de hacer algo por alguien o algo. Es en gran medida intangible (no material) y es por esta razón que se convierte en un gran reto para toda unidad productiva. Debe existir en la unidad productiva una cultura de servicio. Esta no solo debe ir dirigida a sus clientes sino también a sus empleados, pues internamente los empleados también son clientes que pueden estar insatisfechos y al momento de realizar sus actividades o la venta puede no convencer del todo al cliente externo sobre los productos o servicios. Es aquí donde se hace necesario conocer la identidad y apropiación de los empleados con la empresa y para esto se debe capacitar a los empleados y brindarles toda la información necesaria sobre los servicios y productos de la unidad productiva. 
         p.mt-4 Por otra parte, en relación a los clientes, es importante tener presente la orientación del consumidor como elemento diferenciador para mejorar en los servicios prestados y características de los productos. Es aquí donde se debe medir la relación beneficio-empleado-cliente donde les brinde a estos agentes de participar en las decisiones la construcción de una planificación estratégica de la unidad productiva.
-      .col-4.align-self-center
+      .col-4.offset-4.offset-lg-0.mt-4.mt-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-6-4.png", alt="Texto que describa la imagen")
     separador.mt-3
@@ -41,7 +41,7 @@
       img(src="@/assets/template/tema-6-5.png", alt="Texto que describa la imagen") 
     p.mt-5 En las características del servicio como marketing, se encuentran en su orden: 
     .row.mt-5
-      .col-8.offset-2
+      .col-12.col-lg-8.offset-lg-2
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Perecedero:")
             .col-2.pt-4
@@ -83,7 +83,7 @@
     .titulo-segundo.mt-5
       #t_6_3.h2 6.3  	Marcos de referencia y buenas prácticas
     .row.mt-5.position-relative
-      .col-8.align-self-center.bg-acento-botones.rounded-20.px-5.position-absolute(style="left: 33%; padding-top: 3%; padding-bottom:3%; top:4%")
+      .col-10.offset-1.d-block.d-no-none.bg-acento-botones.rounded-20.px-5.py-4
         p El buen servicio que se ofrezca en una unidad productiva es determinante para que tus antiguos consumidores les cuenten a nuevos clientes su experiencia y recomendaciones de los productos y servicios.
         .row.mx-0.mt-3
           .col-12
@@ -123,7 +123,48 @@
           li 
             i.fas.fa-angle-right.naranja
             | Desarrollo y aporte a la comunidad local.
-      .col-6
+      
+      .col-8.align-self-center.d-none.d-lg-block.bg-acento-botones.rounded-20.px-5.position-absolute(style="left: 33%; padding-top: 3%; padding-bottom:3%; top:4%")
+        p El buen servicio que se ofrezca en una unidad productiva es determinante para que tus antiguos consumidores les cuenten a nuevos clientes su experiencia y recomendaciones de los productos y servicios.
+        .row.mx-0.mt-3
+          .col-12
+            .cajon.color-acento-contenido.p-4.mb-4 
+              .row 
+                p.text-small Aquí es importante que los clientes se lleven una buena experiencia porque de lo contrario pueden llegar a contarlo a otros posibles clientes futuros, lo que provocaría una reducción de las ventas y rentabilidad. 
+        p.mt-3 Por otra parte, cuando se hace referencia a las buenas prácticas empresariales, se traduce en las acciones que se realizan en un periodo de tiempo determinado y genera una mejora en continua en los productos, servicio o situación que se encuentre la unidad productiva. Está relacionado al concepto de responsabilidad corporativa y en este es crucial el compromiso de todos los que hacen parte de la organización, como: directivos, proveedores, trabajadores, comunidad local, entre otros que intervienen en el funcionamiento de la unidad productiva. 
+        p.mt-3 Entre todas estas acciones que se despliegan de las buenas prácticas se encuentran:
+        ul.lista-ul.mt-3.mt-3.text-small
+          li 
+            i.fas.fa-angle-right.naranja
+            | Satisfacción en cada servicio ofrecido, por ambas partes.
+          li 
+            i.fas.fa-angle-right.naranja
+            | I+D+I: investigación, desarrollo e innovación.
+          li 
+            i.fas.fa-angle-right.naranja
+            | Mantener transparencia y sinceridad en los procesos.
+          li 
+            i.fas.fa-angle-right.naranja
+            | Calidad y relación con el precio.
+          li 
+            i.fas.fa-angle-right.naranja
+            | Búsqueda de la mejora continua a través de nuevos modelos de negocio, producción.
+          li 
+            i.fas.fa-angle-right.naranja
+            | Resolución de cualquier acontecimiento.
+          li 
+            i.fas.fa-angle-right.naranja
+            | Inversión en marketing y comunicación.
+          li 
+            i.fas.fa-angle-right.naranja
+            | Comunicación continua con los clientes y potenciales clientes.
+          li 
+            i.fas.fa-angle-right.naranja
+            | Buena atención al cliente durante todo el proceso de compra.
+          li 
+            i.fas.fa-angle-right.naranja
+            | Desarrollo y aporte a la comunidad local.
+      .col-6.d-none.d-lg-block
         figure
           img(src="@/assets/template/tema-6-11.png", alt="Texto que describa la imagen")
     separador.mt-3
@@ -136,11 +177,11 @@
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p En la industria manufacturera, el método Kaizen considera muchos pasos; sin embargo, las herramientas para mejorar la satisfacción del cliente no son muy comunes. Para el mejoramiento de los procesos, algunos métodos utilizados son las (7) herramientas de control de calidad:
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block
               figure
                 img(src="@/assets/template/tema-6-12.svg", alt="Texto que describa la imagen").floating.w-75.margin-0-auto
     .row.mt-5
-      .col-8.offset-2
+      .col-12.col-lg-8.offset-lg-2
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Lista de chequeo:")
             .col-2.pt-4
