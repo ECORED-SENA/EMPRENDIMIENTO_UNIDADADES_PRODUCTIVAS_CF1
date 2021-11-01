@@ -218,7 +218,7 @@
       .col-6.d-none.d-lg-block
         figure
           img(src="@/assets/template/tema-1-21.png", alt="Texto que describa la imagen")
-      .col-8.align-self-center.d-none.d-lg-blockbg-acento-botones.rounded-20.px-5.position-absolute(style="left: 33%; padding-top: 9%; padding-bottom:9%")
+      .col-8.align-self-center.d-none.d-lg-block.bg-acento-botones.rounded-20.px-5.position-absolute(style="left: 33%; padding-top: 9%; padding-bottom:9%")
         p El plan de negocio tiene como objetivo principal el poder definir e identificar la oportunidad de negocio, seguido a esto permitirá un estudio de mercado para posicionar los productos o servicios de la unidad productiva y, por último, permitirá conocer la viabilidad económica del proyecto. Es por esta razón que el plan de negocios es importante para cualquier socio de una empresa y tener clara la idea de negocio, su proyección, el retorno de sus ingresos para no perder la inversión. 
     .titulo-segundo.mt-5
       #t_1_4.h2 1.4  	Componentes de un plan de negocios 
@@ -242,7 +242,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Clientes con pedido")
             h4 Clientes con pedido
             .row
-              .col-6.offset-3.offset-lg-0.col-lg-2
+              .col-4.col-lg-2.offset-4.offset-lg-0.col-lg-2.px-4.px-lg-0
                 figure
                   img(src="@/assets/template/tema-1-24.svg", alt="Texto que describa la imagen")
               .col-9.offset-1.mt-3.mt-lg-0
@@ -251,7 +251,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Información sobre el entorno")
             h4 Información sobre el entorno
             .row
-              .col-6.offset-3.offset-lg-0.col-lg-2
+              .col-4.col-lg-2.offset-4.offset-lg-0.col-lg-2.px-4.px-lg-0
                 figure
                   img(src="@/assets/template/tema-1-25.svg", alt="Texto que describa la imagen")
               .col-9.offset-1.mt-3.mt-lg-0
@@ -259,7 +259,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Tecnología")
             h4 Tecnología
             .row
-              .col-6.offset-3.offset-lg-0.col-lg-2
+              .col-4.col-lg-2.offset-4.offset-lg-0.col-lg-2.px-4.px-lg-0
                 figure
                   img(src="@/assets/template/tema-1-26.svg", alt="Texto que describa la imagen")
               .col-9.offset-1.mt-3.mt-lg-0
@@ -267,7 +267,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Oportunidad")
             h4 Oportunidad
             .row
-              .col-6.offset-3.offset-lg-0.col-lg-2
+              .col-4.col-lg-2.offset-4.offset-lg-0.col-lg-2.px-4.px-lg-0
                 figure
                   img(src="@/assets/template/tema-1-27.svg", alt="Texto que describa la imagen")
               .col-9.offset-1.mt-3.mt-lg-0
@@ -275,7 +275,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Redes empresariales")
             h4 Redes empresariales
             .row
-              .col-6.offset-3.offset-lg-0.col-lg-2
+              .col-4.col-lg-2.offset-4.offset-lg-0.col-lg-2.px-4.px-lg-0
                 figure
                   img(src="@/assets/template/tema-1-28.svg", alt="Texto que describa la imagen")
               .col-9.offset-1.mt-3.mt-lg-0
@@ -283,7 +283,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Recursos humano")
             h4 Recursos humano
             .row
-              .col-6.offset-3.offset-lg-0.col-lg-2
+              .col-4.col-lg-2.offset-4.offset-lg-0.col-lg-2.px-4.px-lg-0
                 figure
                   img(src="@/assets/template/tema-1-29.svg", alt="Texto que describa la imagen")
               .col-9.offset-1.mt-3.mt-lg-0
@@ -291,7 +291,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Recursos naturales")
             h4 Recursos naturales
             .row
-              .col-6.offset-3.offset-lg-0.col-lg-2
+              .col-4.col-lg-2.offset-4.offset-lg-0.col-lg-2.px-4.px-lg-0
                 figure
                   img(src="@/assets/template/tema-1-30.svg", alt="Texto que describa la imagen")
               .col-9.offset-1.mt-3.mt-lg-0
@@ -299,7 +299,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Recursos financieros")
             h4 Recursos financieros
             .row
-              .col-6.offset-3.offset-lg-0.col-lg-2
+              .col-4.col-lg-2.offset-4.offset-lg-0.col-lg-2.px-4.px-lg-0
                 figure
                   img(src="@/assets/template/tema-1-31.svg", alt="Texto que describa la imagen")
               .col-9.offset-1.mt-3.mt-lg-0

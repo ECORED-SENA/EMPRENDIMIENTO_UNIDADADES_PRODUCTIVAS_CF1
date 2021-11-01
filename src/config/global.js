@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Planificación de unidades productivas',
     descripcionCurso:
-      'Este componente formativo permite identificar y conocer la estructura de un plan de negocios de la unidad productiva, conociendo las necesidades del mercado, del cliente y la identidad corporativa según las características del producto o servicio.<br> <br> Por otra parte, diseñar y articular estrategias de mercado y planificación, estudiando las variables de un plan de mercadeo, el ciclo de vida de un producto o servicio y su normatividad.',
+      'Las actividades diseñadas en este componente de formación, permiten identificar y conocer la estructura de un plan de negocios de la unidad productiva, conociendo de esta manera las necesidades del mercado, del cliente y la identidad corporativa según las características del producto o servicio.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },

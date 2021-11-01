@@ -43,7 +43,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mt-5
-      .col-10
+      .col-12.col-lg-10
         p Todos estos beneficios además de atraer clientes, también genera la confianza de nuevos talentos e inversores.
         p.mt-3 En la actualidad encontramos muchas imágenes corporativas muy famosas en el mundo empresarial demarcas registradas, entre estas vemos la de Apple con su logo de manzana, Nike con su logo modo tic curvo y Coca-Cola con su nombre y color representativo. Sus logos y marcas son fáciles de reconocer, logrando generar una identidad y afinidad con los consumidores.
       .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
@@ -63,7 +63,7 @@
                   .anexo__icono.color-primario
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
-                    p.text-small Enlace web. https://www.apple.com/co/
+                    p.text-small.wrap-mov Enlace web. https://www.apple.com/co/
       
       .col-6.col-lg-4.px-4
         .row.rounded-15.box-shadow.h-350-px
@@ -77,7 +77,7 @@
                   .anexo__icono.color-primario
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
-                    p.text-small Enlace web. https://www.nike.com/us/es/
+                    p.text-small.wrap-mov Enlace web. https://www.nike.com/us/es/
       .col-6.col-lg-4.px-4.offset-3.offset-lg-0.mt-4.mt-lg-0
         .row.rounded-15.box-shadow.h-350-px
           .col-12.p-4.text-center.zoom-in
@@ -90,7 +90,7 @@
                   .anexo__icono.color-primario
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
-                    p.text-small Enlace web. https://www.avatrade.es/cfd-trading/acciones/acciones-coca-cola
+                    p.text-small.wrap-mov Enlace web. https://www.avatrade.es/cfd-trading/acciones/acciones-coca-cola
     .row.mt-5
       .col-4.col-lg-2.offset-4.offset-lg-0.align-self-center
         figure
@@ -103,7 +103,7 @@
     .row.mt-5
       .col-12.rounded-20.bg-amarillo-claro.p-5
         .row.zoom-in
-          .col-10.offset-1.col-lg-4
+          .col-10.col-lg-4.offset-1.offset-lg-0
             p Toda imagen corporativa debe ser unánime en sus recursos visuales, transmitiendo así de forma efectiva el mensaje que quiere dar a conocer la unidad productiva. Entre las características de la imagen corporativa se encuentran:
             ul.lista-ul.mt-3
               li 
@@ -124,15 +124,15 @@
               li 
                 i.fas.fa-angle-right.naranja
                 | Incide en la diferenciación de la empresa.
-          .col-6.col-lg-8.offset-3.offset-lg-0
+          .col-6.col-lg-8.offset-3.offset-lg-0.align-self-center
             figure
-              img(src="@/assets/template/tema-2-9.svg", alt="Texto que describa la imagen")
+              img(src="@/assets/template/tema-2-9.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
     separador.mt-4
 
     .titulo-segundo.mt-5
       #t_2_3.h2 2.3  	Elementos de la imagen corporativa 
     .row.mt-5
-      .col-12.col-lg-4
+      .col-12.col-lg-9
         p Partiendo de la importancia que tiene una imagen corporativa, es preciso mencionar que para su creación y diseño es necesario antes realizar un análisis de la unidad productiva, del producto y el sector en donde este opera. Este análisis puede realizarse mediante un estudio FODA donde se valoren las debilidades, fortalezas, amenazas y oportunidades. Para esto es importante tener clara la misión y valores de la empresa como el público objetivo al que se va apostar en la unidad productiva.
         p.mt-3 Toda unidad productiva en su estructuración debe contar con una serie de elementos que fortalezcan la imagen corporativa y a su vez, les permita posicionarse en el mercado. Entre estos elementos encontramos:
       .col-4.col-lg-3.offset-4.offset-lg-0.mt-4.mt-lg-0
@@ -255,7 +255,7 @@
                 .text.p-lg-5.p-4
                   .row.px-1.pt-1
                     .h4.small-text.text-center Demanda
-                    p.mt-5 La cantidad de producto que los compradores están dispuestos a adquirir a un determinado precio.
+                    p.mt-5-cus.small-text La cantidad de producto que los compradores están dispuestos a adquirir a un determinado precio.
           .col-lg-6
             .row.px-2.pt-2.h-100
               .col-12.m-0.nav-holder3.align-items-center.rounded-15.box-shadow.px-0
@@ -264,7 +264,7 @@
                 .text.p-lg-5.p-4
                   .row.px-1.pt-1
                     .h4.small-text.text-center Oferta
-                    p.mt-5 La cantidad de producto que los vendedores están dispuestos a ofrecer a un determinado precio.
+                    p.mt-5-cus.small-text La cantidad de producto que los vendedores están dispuestos a ofrecer a un determinado precio.
     separador.mt-3 
     .titulo-segundo.mt-5
       #t_2_5.h2 2.5 	Objetivo    

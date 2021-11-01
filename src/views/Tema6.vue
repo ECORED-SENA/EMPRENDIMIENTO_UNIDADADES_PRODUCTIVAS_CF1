@@ -83,7 +83,7 @@
     .titulo-segundo.mt-5
       #t_6_3.h2 6.3  	Marcos de referencia y buenas prácticas
     .row.mt-5.position-relative
-      .col-10.offset-1.d-block.d-no-none.bg-acento-botones.rounded-20.px-5.py-4
+      .col-10.offset-1.d-block.d-lg-none.bg-acento-botones.rounded-20.px-5.py-4
         p El buen servicio que se ofrezca en una unidad productiva es determinante para que tus antiguos consumidores les cuenten a nuevos clientes su experiencia y recomendaciones de los productos y servicios.
         .row.mx-0.mt-3
           .col-12
