@@ -56,7 +56,7 @@
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:5%; width: 16%").z-index-2
             figure(@mouseover="mostrarIndicador = false")
               .indicador--click(v-if="mostrarIndicador")
-              <img src="@/assets/template/1.png" alt="Texto que describa la imagen" class="cursor-pointer" @click="toggleShowInfo1()">
+              img(src="@/assets/template/1.png").cursor-pointer(@click="toggleShowInfo1()")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:23.5%; width: 16%").z-index-2
             figure(@mouseover="mostrarIndicador = false")
               .indicador--click(v-if="mostrarIndicador")
