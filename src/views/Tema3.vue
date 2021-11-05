@@ -120,7 +120,7 @@
     p.mt-5 La segmentación consiste en dividir el mercado en grupos de compradores con características similares. Se puede establecer según diferentes criterios:
     .row.mt-5 
       .row.mb-2.text-center
-        .offset-3.col-sm-6.p-1.text-center.d-block.d-lg-none
+        .offset-lg-3.col-sm-6.p-1.text-center.d-block.d-lg-none
           .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.p-3             
@@ -144,12 +144,12 @@
                 .row.pt-4    
                   .h4.pt-4 Geográficos
                   p.mt-3 Barrio, localidad, provincia, zonas cálidas o frías, etc.
-        .col-sm-6.p-1.offset-3.text-center.d-block.d-lg-none
+        .col-sm-6.p-1.offset-lg-3.text-center.d-block.d-lg-none
           .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.p-3            
                 .row.align-self-center   
-                  figure.pt-3
+                  figure
                     img(src="@/assets/template/tema-3-14.svg", alt="Texto que describa la imagen").w-50.margin-0-auto.px-3
                   .h4.mt-4 Demográficos 
               .tarjeta-flip__contenido.p-3.bg-azul-claro
@@ -168,7 +168,7 @@
                 .row.pt-5    
                   .h4.pt-3 Demográficos
                   p.mt-3.mb-5 Edad, sexo, etc. 
-        .col-sm-6.p-1.offset-3.text-center.d-block.d-lg-none
+        .col-sm-6.p-1.offset-lg-3.text-center.d-block.d-lg-none
           .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.p-3            
@@ -192,7 +192,7 @@
                 .row.pt-5    
                   .h4.pt-3 Personales 
                   p.mt-3 Estilo de vida, profesión, ingresos, cultura, etc. 
-        .col-sm-6.p-1.offset-3.text-center.d-block.d-lg-none
+        .col-sm-6.p-1.offset-lg-3.text-center.d-block.d-lg-none
           .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.p-3            
@@ -218,12 +218,12 @@
                   p.mt-3 Tamaño y estructura de las familias, situación, etc.
     .row.mt-3
       .row.mb-5.text-center
-        .col-sm-6.p-1.offset-3.text-center.d-block.d-lg-none
+        .col-sm-6.p-1.offset-lg-3.text-center.d-block.d-lg-none
           .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.p-3             
                 .row.align-self-center   
-                  figure.pt-3
+                  figure
                     img(src="@/assets/template/tema-3-17.svg", alt="Texto que describa la imagen").w-50.margin-0-auto.px-3
                   .h4.mt-4 Psicológicos 
               .tarjeta-flip__contenido.p-3.bg-azul-claro
@@ -242,7 +242,7 @@
                 .row.pt-4    
                   .h4.pt-4 Psicológicos 
                   p.mt-3 Motivaciones de compra, actitud ante el producto, etc. 
-        .col-sm-6.p-1.offset-3.text-center.d-block.d-lg-none
+        .col-sm-6.p-1.offset-lg-3.text-center.d-block.d-lg-none
           .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.p-3            
@@ -266,7 +266,7 @@
                 .row.pt-5    
                   .h4.pt-3 Conductuales
                   p.mt-3.mb-5 Fidelidad a un producto o marca, regularidad de compra, etc. 
-        .col-sm-6.p-1.offset-3.text-center.d-block.d-lg-none
+        .col-sm-6.p-1.offset-lg-3.text-center.d-block.d-lg-none
           .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false").box-shadow
             .tarjeta-flip__contenedor
               .tarjeta-flip__img.p-3            

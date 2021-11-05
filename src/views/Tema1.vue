@@ -54,24 +54,14 @@
           figure.z-index-2.d-none.d-lg-block
             img(src="@/assets/template/test.png", alt="Texto que describa la imagen")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:5%; width: 16%").z-index-2
-            figure(@mouseover="mostrarIndicador = false")
-              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/template/1.png").cursor-pointer(@click="toggleShowInfo1()")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:23.5%; width: 16%").z-index-2
-            figure(@mouseover="mostrarIndicador = false")
-              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/template/2.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo2()")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:42.5%; width: 16%").z-index-2
-            figure(@mouseover="mostrarIndicador = false")
-              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/template/3.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo3()")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:61%; width: 16%").z-index-2
-            figure(@mouseover="mostrarIndicador = false")
-              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/template/4.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo4()")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:79.5%; width: 16%").z-index-2
-            figure(@mouseover="mostrarIndicador = false")
-              .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/template/5.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo5()")
           .col-20.pt-5.px-0.position-absolute(style="top: 60%; left:2.5%; width: 20%; height:75%").fondo-img-3.text-center.z-index-1.opacity-3
             .h4.pt-5 Para:
@@ -102,7 +92,7 @@
         .titulo-sexto.color-acento-contenido
           h5.text-small Figura 1
           p.text-small.italic Aspectos para la realización de un plan de negocio
-    .row.d-flex.justify-content-around(style="margin-top: 15%")
+    .row.d-flex.justify-content-around(style="margin-top: 20%")
       .col-5.col-xl-2.text-center.borde-azul-3.rounded-20.py-4.position-relative.zoom-in2
         figure.position-absolute(style="top: -120%; left:0%").d-none.d-xl-block
           img(src="@/assets/template/tema-1-6.png", alt="Texto que describa la imagen")

@@ -303,7 +303,7 @@ export default {
         'La forma en que el público percibe la marca de la unidad productiva, sus productos o servicios.',
     },
     {
-      termino: 'Marketing',
+      termino: 'M<em>arketing</em>',
       significado:
         'Estrategia que sirve para posicionar un producto o una institución en mercado determinado.',
     },
