@@ -73,19 +73,19 @@
             figure(@mouseover="mostrarIndicador = false")
               .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/template/5.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo5()")
-          .col-20.pt-5.px-0.position-absolute(style="top: 60%; left:2.5%; width: 20%; height:75%").fondo-img-3.text-center.z-index-1.opacity-0(:class="{ 'opacity-1 ': (showInfo1==true)}")
+          .col-20.pt-5.px-0.position-absolute(style="top: 60%; left:2.5%; width: 20%; height:75%").fondo-img-3.text-center.z-index-1.opacity-1
             .h4.pt-5 Para:
             p.mt-2 Clasificar, focalizar, e investigar un proyecto
-          .col-20.pt-1.px-0.position-absolute(style="top: -18%; left:21.5%; width: 20%; height:75%").fondo-img-2.text-center.z-index-1.opacity-0(:class="{ 'opacity-1 ': (showInfo2==true)}")
+          .col-20.pt-1.px-0.position-absolute(style="top: -18%; left:21.5%; width: 20%; height:75%").fondo-img-2.text-center.z-index-1.opacity-1
             .h4.pt-5 Para:
             p.mt-2 Planificar e identificar estrategias.
-          .col-20.pt-5.px-0.position-absolute(style="top: 60%; left:40.5%; width: 20%; height:75%").fondo-img-3.text-center.z-index-1.opacity-0(:class="{ 'opacity-1 ': (showInfo3==true)}")
+          .col-20.pt-5.px-0.position-absolute(style="top: 60%; left:40.5%; width: 20%; height:75%").fondo-img-3.text-center.z-index-1.opacity-1
             .h4.pt-5 Para:
             p.mt-2 Brindar adaptabilidad
-          .col-20.pt-1.px-0.position-absolute(style="top: -18%; left:59%; width: 20%; height:75%").fondo-img-2.text-center.z-index-1.opacity-0(:class="{ 'opacity-1 ': (showInfo4==true)}")
+          .col-20.pt-1.px-0.position-absolute(style="top: -18%; left:59%; width: 20%; height:75%").fondo-img-2.text-center.z-index-1.opacity-1
             .h4.pt-5 Para:
             p.mt-2 Establecer créditos e inversiones
-          .col-20.pt-5.px-0.position-absolute(style="top: 60%; left:77.5%; width: 20%; height:75%").fondo-img-3.text-center.z-index-1.opacity-0(:class="{ 'opacity-1 ': (showInfo5==true)}")
+          .col-20.pt-5.px-0.position-absolute(style="top: 60%; left:77.5%; width: 20%; height:75%").fondo-img-3.text-center.z-index-1.opacity-1
             .h4.pt-5 Para:
             p.mt-2 Identificar oportunidades
     Separador.mt-5
