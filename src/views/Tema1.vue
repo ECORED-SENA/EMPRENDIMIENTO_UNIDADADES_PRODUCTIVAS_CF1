@@ -33,9 +33,13 @@
       .col-10.offset-1.p-5.d-block.d-lg-none.bg-acento-botones.rounded-20.mt-5
         p Se considera una herramienta de proyección y evaluación de una empresa o unidad productiva, con el fin de identificar las oportunidades de negocio; este debe ser plasmado en un documento que describa los objetivos, las características y los componentes específicos de la unidad productiva. 
         p.mt-3 La iniciativa de la unidad productiva en aplicar una herramienta como esta, puede ser utilizada para proyectos nuevos dentro de las actividades o como iniciación de la unidad, esta planeación permitirá fijar metas o tareas que den paso una mejor oportunidad de negocio. Para su desarrollo será necesario evaluar todos los recursos de la unidad productiva. 
-        p.mt-3 Muchas veces surge la pregunta: ¿Para qué sirve un plan de negocio? La respuesta a esta pregunta se encuentra en la siguiente infografía:   
+        p.mt-3.mb-5 Muchas veces surge la pregunta: ¿Para qué sirve un plan de negocio? La respuesta a esta pregunta se encuentra en la siguiente infografía:   
     .row.mt-5.text-center.pb-5
-      .h4 ¿Para qué sirve un plan de negocio?
+      .col-12.mt-5.text-center
+        .h4 ¿Para qué sirve un plan de negocio?
+      .col-2.text-center.offset-5.mt-4
+        figure
+          img(src="@/assets/template/tema-1-32.svg", alt="Texto que describa la imagen")  
     .row.mt-5
       .col-10.offset-1.d-block.d-lg-none
         LineaTiempoD.color-primario

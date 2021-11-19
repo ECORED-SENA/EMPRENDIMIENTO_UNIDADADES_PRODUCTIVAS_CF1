@@ -39,9 +39,7 @@
           figure.mt-3
             img(src="@/assets/template/tema-2-3.png", alt="Texto que describa la imagen")
     p.mt-4 La siguiente infografía animada, muestra cuales son los beneficios: 
-    figure.mt-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    SlyderB.mt-5(:datos="datosSlyder")(data-aos="slide-right")
     .row.mt-5
       .col-12.col-lg-10
         p Todos estos beneficios además de atraer clientes, también genera la confianza de nuevos talentos e inversores.
@@ -344,6 +342,32 @@ export default {
   name: 'Tema2',
   data: () => ({
     // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'Imagen corporativa',
+        texto:
+          'Es importante tener presente que una imagen positiva y coherente puede brindar muchos beneficios a la unidad productiva, entre estos tenemos:',
+        imagen: require('@/assets/template/tema-2-66.png'),
+      },
+      {
+        titulo: 'Crear vínculo emocional ',
+        texto:
+          'Llega a crear un vínculo emocional con los consumidores generando confianza y seguridad, esto permite mejorar la fidelización.',
+        imagen: require('@/assets/template/tema-2-67.png'),
+      },
+      {
+        titulo: 'Fácil reconocimiento',
+        texto:
+          'Que los productos y servicios sean reconocidos fácilmente y de esta forma aumentaría el valor percibido frente a la competencia.',
+        imagen: require('@/assets/template/tema-2-70.png'),
+      },
+      {
+        titulo: 'Crear identidad con el público',
+        texto:
+          'Que el público se logre identificar con la marca bajo el reconocimiento de valores, principios y la filosofía de la unidad productiva.',
+        imagen: require('@/assets/template/tema-2-71.png'),
+      },
+    ],
     mostrarIndicador: true,
     modalP: false,
     modalH: false,
