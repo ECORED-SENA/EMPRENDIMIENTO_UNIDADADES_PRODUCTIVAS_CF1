@@ -6,13 +6,13 @@
     .titulo-principal
       .titulo-principal__numero
         span 2
-      h1 Identidad corportiva
+      h1 Identidad corporativa
     .row.mt-5.position-relative.pb-5
     
       .col-10.offset-1.d-block.d-lg-none.bg-acento-botones.rounded-20.px-5.py-4
-        p En la actualidad existen muchas compañías que con solo mirar su imagen o logotipo se pueden identificar y muchas de ellas son reconocidas en los mercados nacionales e internacionales por llamativa o singular que puede llegar a hacer su imagen o logotipo corporativo. En este apartado estudiaremos lo relacionado a la imagen corporativa que debe implementar una unidad productiva.
+        p En la actualidad existen muchas compañías que con solo mirar su imagen o logotipo se pueden identificar y muchas de ellas son reconocidas en los mercados nacionales e internacionales por llamativa o singular que puede llegar a hacer su imagen o logotipo corporativo. En este apartado estudiaremos lo relacionado con la imagen corporativa que debe implementar una unidad productiva.
       .col-8.align-self-center.d-none.d-lg-block.bg-acento-botones.rounded-20.px-5.position-absolute(style="left: 0%; padding-top: 9%; padding-bottom:9%").mt-5
-        p En la actualidad existen muchas compañías que con solo mirar su imagen o logotipo se pueden identificar y muchas de ellas son reconocidas en los mercados nacionales e internacionales por llamativa o singular que puede llegar a hacer su imagen o logotipo corporativo. En este apartado estudiaremos lo relacionado a la imagen corporativa que debe implementar una unidad productiva. 
+        p En la actualidad existen muchas compañías que con solo mirar su imagen o logotipo se pueden identificar y muchas de ellas son reconocidas en los mercados nacionales e internacionales por llamativa o singular que puede llegar a hacer su imagen o logotipo corporativo. En este apartado estudiaremos lo relacionado con la imagen corporativa que debe implementar una unidad productiva. 
     
       .col-6.offset-6.mt-5.d-none.d-lg-block
         figure
@@ -38,7 +38,7 @@
             p.text-small.italic Imagen corporativa
           figure.mt-3
             img(src="@/assets/template/tema-2-3.png", alt="Texto que describa la imagen")
-    p.mt-4 La siguiente infografía animada, muestra cuales son los beneficios: 
+    p.mt-4 La siguiente infografía animada, muestra cuáles son los beneficios: 
     SlyderB.mt-5(:datos="datosSlyder")(data-aos="slide-right")
     .row.mt-5
       .col-12.col-lg-10
@@ -131,7 +131,7 @@
       #t_2_3.h2 2.3  	Elementos de la imagen corporativa 
     .row.mt-5
       .col-12.col-lg-9
-        p Partiendo de la importancia que tiene una imagen corporativa, es preciso mencionar que para su creación y diseño es necesario antes realizar un análisis de la unidad productiva, del producto y el sector en donde este opera. Este análisis puede realizarse mediante un estudio FODA donde se valoren las debilidades, fortalezas, amenazas y oportunidades. Para esto es importante tener clara la misión y valores de la empresa como el público objetivo al que se va apostar en la unidad productiva.
+        p Partiendo de la importancia que tiene una imagen corporativa, es preciso mencionar que para su creación y diseño es necesario antes realizar un análisis de la unidad productiva, del producto y el sector en donde este opera. Este análisis puede realizarse mediante un estudio FODA donde se valoren las debilidades, fortalezas, amenazas y oportunidades. Para esto es importante tener clara la misión y valores de la empresa como el público objetivo al que se va a apostar en la unidad productiva.
         p.mt-3 Toda unidad productiva en su estructuración debe contar con una serie de elementos que fortalezcan la imagen corporativa y a su vez, les permita posicionarse en el mercado. Entre estos elementos encontramos:
       .col-4.col-lg-3.offset-4.offset-lg-0.mt-4.mt-lg-0
         figure
@@ -286,7 +286,7 @@
     separador.mt-3
     .titulo-segundo.mt-5
       #t_2_6.h2 2.6 	Sensaciones
-    p.mt-5 La imagen corporativa juega un papel principal en la transmisión de sentimientos y emociones a los clientes, se  cómo:
+    p.mt-5 La imagen corporativa juega un papel principal en la transmisión de sentimientos y emociones a los clientes, a continuación se puede ver cómo:
     ImagenInfografica.color-acento-botones.mt-4
       template(v-slot:imagen)
         figure
@@ -310,7 +310,7 @@
         .row.borde-azul-3.rounded-15
           .col-1.px-0.rounded-15-left.bg-azul-claro
           .col-11.bg-blanco.px-0.rounded-15-right
-            p.p-4 Los consumidores desarrollan una serie de estímulos y sensaciones de tipo afectivo en relación a las marcas. 
+            p.p-4 Los consumidores desarrollan una serie de estímulos y sensaciones de tipo afectivo en relación con las marcas. 
                 
     .titulo-segundo.mt-5
       #t_2_7.h2 2.7  	Prejuicios y experiencias 

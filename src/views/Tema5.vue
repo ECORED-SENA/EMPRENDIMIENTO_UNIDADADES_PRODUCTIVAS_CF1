@@ -10,11 +10,11 @@
     .row.mt-5.position-relative
       .col-10.offset-1.d-block.d-lg-none.bg-acento-botones.rounded-20.px-5.py-4
         p Los mercados hoy en día se encuentran en constantes cambios y continúan evolucionando, esto también hace que los productos que ofrece una empresa tengan una vida limitada y experimenten una evolución desde que salen al mercado hasta su retirada y esto se da por diferentes etapas que logran afectar a las ventas de la unidad productiva. A continuación, se estudiará el ciclo de vida del producto:
-        p.mt-3 La capacidad de la empresa en adaptar sus productos a las nuevas necesidades de los consumidores dependerá de los factores que afectan la evolución y la demanda de los productos de la unidad productiva. Las etapas del ciclo de vida de un producto son: introducción, crecimiento, madurez y declive. En la siguiente gráfica interactiva se puede observar la evolución de cada una de sus etapas:
+        p.mt-3 La capacidad de la empresa en adaptar sus productos a las nuevas necesidades de los consumidores dependerá de los factores que afectan la evolución y la demanda de los productos de la unidad productiva. Las etapas del ciclo de vida de un producto son: introducción, crecimiento, madurez y declive. En la siguiente gráfica se puede observar la evolución de cada una de sus etapas:
       
       .col-8.align-self-center.d-none.d-lg-block.bg-acento-botones.rounded-20.px-5.position-absolute(style="left: 33%; padding-top: 6%; padding-bottom:6%; top:11%")
         p Los mercados hoy en día se encuentran en constantes cambios y continúan evolucionando, esto también hace que los productos que ofrece una empresa tengan una vida limitada y experimenten una evolución desde que salen al mercado hasta su retirada y esto se da por diferentes etapas que logran afectar a las ventas de la unidad productiva. A continuación, se estudiará el ciclo de vida del producto:
-        p.mt-3 La capacidad de la empresa en adaptar sus productos a las nuevas necesidades de los consumidores dependerá de los factores que afectan la evolución y la demanda de los productos de la unidad productiva. Las etapas del ciclo de vida de un producto son: introducción, crecimiento, madurez y declive. En la siguiente gráfica interactiva se puede observar la evolución de cada una de sus etapas:
+        p.mt-3 La capacidad de la empresa en adaptar sus productos a las nuevas necesidades de los consumidores dependerá de los factores que afectan la evolución y la demanda de los productos de la unidad productiva. Las etapas del ciclo de vida de un producto son: introducción, crecimiento, madurez y declive. En la siguiente gráfica se puede observar la evolución de cada una de sus etapas:
       
       .col-6.d-none.d-lg-block
         figure

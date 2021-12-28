@@ -1,1 +1,1 @@
-module.exports = 'Planificación de unidades productivas'
+module.exports = 'Planificación estratégica de unidades productivas'

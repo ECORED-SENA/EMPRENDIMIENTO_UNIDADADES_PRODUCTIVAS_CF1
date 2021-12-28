@@ -30,7 +30,7 @@
                     img(src="@/assets/template/tema-6-3.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
                 .col-12.col-lg-9.align-self-center
                   p.text-small Un servicio se considera una acción de hacer algo por alguien o algo. Es en gran medida intangible (no material) y es por esta razón que se convierte en un gran reto para toda unidad productiva. Debe existir en la unidad productiva una cultura de servicio. Esta no solo debe ir dirigida a sus clientes sino también a sus empleados, pues internamente los empleados también son clientes que pueden estar insatisfechos y al momento de realizar sus actividades o la venta puede no convencer del todo al cliente externo sobre los productos o servicios. Es aquí donde se hace necesario conocer la identidad y apropiación de los empleados con la empresa y para esto se debe capacitar a los empleados y brindarles toda la información necesaria sobre los servicios y productos de la unidad productiva. 
-        p.mt-4 Por otra parte, en relación a los clientes, es importante tener presente la orientación del consumidor como elemento diferenciador para mejorar en los servicios prestados y características de los productos. Es aquí donde se debe medir la relación beneficio-empleado-cliente donde les brinde a estos agentes de participar en las decisiones la construcción de una planificación estratégica de la unidad productiva.
+        p.mt-4 Por otra parte, en relación con los clientes, es importante tener presente la orientación del consumidor como elemento diferenciador para mejorar en los servicios prestados y características de los productos. Es aquí donde se debe medir la relación beneficio-empleado-cliente donde les brinde a estos agentes de participar en las decisiones la construcción de una planificación estratégica de la unidad productiva.
       .col-4.offset-4.offset-lg-0.mt-4.mt-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-6-4.png", alt="Texto que describa la imagen")
@@ -90,7 +90,7 @@
             .cajon.color-acento-contenido.p-4.mb-4 
               .row 
                 p.text-small Aquí es importante que los clientes se lleven una buena experiencia porque de lo contrario pueden llegar a contarlo a otros posibles clientes futuros, lo que provocaría una reducción de las ventas y rentabilidad. 
-        p.mt-3 Por otra parte, cuando se hace referencia a las buenas prácticas empresariales, se traduce en las acciones que se realizan en un periodo de tiempo determinado y genera una mejora en continua en los productos, servicio o situación que se encuentre la unidad productiva. Está relacionado al concepto de responsabilidad corporativa y en este es crucial el compromiso de todos los que hacen parte de la organización, como: directivos, proveedores, trabajadores, comunidad local, entre otros que intervienen en el funcionamiento de la unidad productiva. 
+        p.mt-3 Por otra parte, cuando se hace referencia a las buenas prácticas empresariales, se traduce en las acciones que se realizan en un periodo de tiempo determinado y genera una mejora en continua en los productos, servicio o situación que se encuentre la unidad productiva. Está relacionado con el concepto de responsabilidad corporativa y en este es crucial el compromiso de todos los que hacen parte de la organización, como: directivos, proveedores, trabajadores, comunidad local, entre otros que intervienen en el funcionamiento de la unidad productiva. 
         p.mt-3 Entre todas estas acciones que se despliegan de las buenas prácticas se encuentran:
         ul.lista-ul.mt-3.mt-3.text-small
           li 
@@ -131,7 +131,7 @@
             .cajon.color-acento-contenido.p-4.mb-4 
               .row 
                 p.text-small Aquí es importante que los clientes se lleven una buena experiencia porque de lo contrario pueden llegar a contarlo a otros posibles clientes futuros, lo que provocaría una reducción de las ventas y rentabilidad. 
-        p.mt-3 Por otra parte, cuando se hace referencia a las buenas prácticas empresariales, se traduce en las acciones que se realizan en un periodo de tiempo determinado y genera una mejora en continua en los productos, servicio o situación que se encuentre la unidad productiva. Está relacionado al concepto de responsabilidad corporativa y en este es crucial el compromiso de todos los que hacen parte de la organización, como: directivos, proveedores, trabajadores, comunidad local, entre otros que intervienen en el funcionamiento de la unidad productiva. 
+        p.mt-3 Por otra parte, cuando se hace referencia a las buenas prácticas empresariales, se traduce en las acciones que se realizan en un periodo de tiempo determinado y genera una mejora en continua en los productos, servicio o situación que se encuentre la unidad productiva. Está relacionado con el concepto de responsabilidad corporativa y en este es crucial el compromiso de todos los que hacen parte de la organización, como: directivos, proveedores, trabajadores, comunidad local, entre otros que intervienen en el funcionamiento de la unidad productiva. 
         p.mt-3 Entre todas estas acciones que se despliegan de las buenas prácticas se encuentran:
         ul.lista-ul.mt-3.mt-3.text-small
           li 

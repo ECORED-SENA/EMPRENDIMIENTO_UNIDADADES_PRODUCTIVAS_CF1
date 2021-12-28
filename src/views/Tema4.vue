@@ -164,7 +164,7 @@
               figure
                 img(src="@/assets/template/tema-4-25.svg", alt="Imagen ilustrativa")
             .col-9.pt-4
-              p Las cinco fuerzas de Porter fueron creadas entorno a la rentabilidad de una industria o mercado, esta estudia las siguientes fuerzas: 
+              p Las cinco fuerzas de Porter fueron creadas en torno a la rentabilidad de una industria o mercado, esta estudia las siguientes fuerzas: 
               ul.lista-ul.mt-3.mt-3
                 li 
                   i.fas.fa-angle-right.naranja

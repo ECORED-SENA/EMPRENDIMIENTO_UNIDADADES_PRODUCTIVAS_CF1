@@ -274,8 +274,8 @@
                   img(src="@/assets/template/tema-1-28.svg", alt="Texto que describa la imagen")
               .col-9.offset-1.mt-3.mt-lg-0
                 p Las redes facilitan los procesos operativos y pueden ser el triunfo de toda empresa puesto que permiten guiar al éxito personal, empresarial y profesional.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Recursos humano")
-            h4 Recursos humano
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Recursos humanos")
+            h4 Recursos humanos
             .row
               .col-4.col-lg-2.offset-4.offset-lg-0.col-lg-2.px-4.px-lg-0
                 figure

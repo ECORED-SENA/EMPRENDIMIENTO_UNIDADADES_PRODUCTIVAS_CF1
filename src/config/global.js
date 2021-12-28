@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Planificación de unidades productivas',
+    componenteFormativo: 'Planificación estratégica de unidades productivas',
     descripcionCurso:
       'Las actividades diseñadas en este componente de formación, permiten identificar y conocer la estructura de un plan de negocios de la unidad productiva, conociendo de esta manera las necesidades del mercado, del cliente y la identidad corporativa según las características del producto o servicio.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
@@ -56,7 +56,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Identidad corportiva',
+        titulo: 'Identidad corporativa',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -187,25 +187,25 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '6.1',
-            titulo: 'Estructura de un plan estratégico',
+            titulo: 'Servicios',
             hash: 't_6_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '6.2',
-            titulo: 'Estructura de un plan estratégico',
+            titulo: 'Características',
             hash: 't_6_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '6.3',
-            titulo: 'Estructura de un plan estratégico',
+            titulo: 'Marcos de referencia y buenas prácticas',
             hash: 't_6_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '6.4',
-            titulo: 'Estructura de un plan estratégico',
+            titulo: 'Herramientas de gestión',
             hash: 't_6_4',
           },
         ],
@@ -460,7 +460,12 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Milady Tatiana Villamil Castellanos',
+        nombre: 'Álvaro Andrés Angarita Ramirez',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Luis Fernando Amórtegui García',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },

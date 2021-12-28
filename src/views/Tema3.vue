@@ -51,7 +51,7 @@
             .text.p-lg-3.p-4
               .row.text-center.px-1.pt-1
                 .h4.small-text.pt-2 Prescriptores: 
-                p.mt-3.small-text No compran ni venden, pero influyen en la compra (Ej: médicos al formular medicamentos).
+                p.mt-3.small-text No compran ni venden, pero influyen en la compra (Ej.: médicos al formular medicamentos).
       .col-10.col-md-6.col-lg-4.col-xl-3
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
@@ -385,7 +385,7 @@
         .row
           .col-7
             .h4  Actualización y creatividad 
-            p.mt-3 El mundo digital y las redes sociales se encuentran en constante evolución y cada día las unidades productivas deben mantenerse a la vanguardia de todo lo que se da en el mundo tecnológico. Aquí es importante que la unidad productiva este actualizando y consultando lo último en publicaciones, diseños y medios de comunicación.
+            p.mt-3 El mundo digital y las redes sociales se encuentran en constante evolución y cada día las unidades productivas deben mantenerse a la vanguardia de todo lo que se da en el mundo tecnológico. Aquí es importante que la unidad productiva esté actualizando y consultando lo último en publicaciones, diseños y medios de comunicación.
           .col-5
             figure
               img(src="@/assets/template/tema-3-30.svg", alt="Imagen ilustrativa").w-75.margin-0-auto
