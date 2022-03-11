@@ -37,10 +37,7 @@
     .row.mt-5.text-center.pb-5
       .col-12.mt-5.text-center
         .h4 ¿Para qué sirve un plan de negocio?
-      .col-2.text-center.offset-5.mt-4
-        figure
-          img(src="@/assets/template/tema-1-32.svg", alt="Texto que describa la imagen")  
-    .row.mt-5
+    .row.mt-1
       .col-10.offset-1.d-block.d-lg-none
         LineaTiempoD.color-primario
           p.text-small(numero="1" titulo="Para: ") Clarificar, focalizar e investigar un proyecto. 
@@ -58,15 +55,15 @@
           figure.z-index-2.d-none.d-lg-block
             img(src="@/assets/template/test.png", alt="Texto que describa la imagen")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:5%; width: 16%").z-index-2
-              img(src="@/assets/template/1.png").cursor-pointer(@click="toggleShowInfo1()")
+              img(src="@/assets/template/1.png")(@click="toggleShowInfo1()")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:23.5%; width: 16%").z-index-2
-              img(src="@/assets/template/2.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo2()")
+              img(src="@/assets/template/2.png", alt="Texto que describa la imagen")(@click="toggleShowInfo2()")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:42.5%; width: 16%").z-index-2
-              img(src="@/assets/template/3.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo3()")
+              img(src="@/assets/template/3.png", alt="Texto que describa la imagen")(@click="toggleShowInfo3()")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:61%; width: 16%").z-index-2
-              img(src="@/assets/template/4.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo4()")
+              img(src="@/assets/template/4.png", alt="Texto que describa la imagen")(@click="toggleShowInfo4()")
           .col-20.pt-5.px-0.position-absolute(style="top: 22%; left:79.5%; width: 16%").z-index-2
-              img(src="@/assets/template/5.png", alt="Texto que describa la imagen").cursor-pointer(@click="toggleShowInfo5()")
+              img(src="@/assets/template/5.png", alt="Texto que describa la imagen")(@click="toggleShowInfo5()")
           .col-20.pt-5.px-0.position-absolute(style="top: 60%; left:2.5%; width: 20%; height:75%").fondo-img-3.text-center.z-index-1.opacity-3
             .h4.pt-5 Para:
             p.mt-2 Clasificar, focalizar, e investigar un proyecto
